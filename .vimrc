@@ -10,3 +10,6 @@ set backspace=indent,eol,start
 set mouse=a
 set lazyredraw
 set t_vb=""
+set noundofile
+set nobackup
+
