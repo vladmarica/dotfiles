@@ -1,10 +1,9 @@
 syntax on
 filetype plugin indent on
 
-set tabstop=4
-set expandtab
 set autoindent
 set shiftwidth=4
+set noexpandtab
 set ruler
 set backspace=indent,eol,start
 set mouse=a
@@ -13,3 +12,5 @@ set t_vb=""
 set noundofile
 set nobackup
 
+highlight LineNr ctermfg=yellow
+highlight LineNr ctermbg=0
